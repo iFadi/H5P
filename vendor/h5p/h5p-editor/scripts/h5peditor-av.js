@@ -1147,6 +1147,12 @@ H5PEditor.widgets.video = H5PEditor.widgets.audio = H5PEditor.AV = (function ($)
       regexp: /^[^\/]+:\/\/(echo360[^\/]+)\/media\/([^\/]+)\/h5p.*$/i,
       aspectRatio: '16:9',
     },
+    // Add custom provider for .mp4 and .webm URLs
+    {
+      name: 'CustomVideo',
+      regexp: /^https?:\/\/[^\s]+(\.mp4|\.webm)$/i, // Matches URLs ending in .mp4 or .webm
+      aspectRatio: '16:9', // Adjust aspect ratio if needed
+    },
   ];
 
   /**
