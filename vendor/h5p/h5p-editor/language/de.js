@@ -317,7 +317,7 @@ H5PEditor.language.core = {
   filterErrorMessage: 'Etwas ist schiefgegangen. Biete lade die Seite neu.',
   in: 'in',
   navigateToParent: 'Zum übergeordneten Objekt navigieren',
-  supportedVideoFormats: 'H5P unterstützt die folgenden externen Videoquellen: <span class="h5p-bold">YouTube</span>, <span class="h5p-bold">Panopto</span> und <span class="h5p-bold">Vimeo</span>.',
+  supportedVideoFormats: 'H5P unterstützt die folgenden externen Videoquellen: <span class="h5p-bold">YouTube</span>, <span class="h5p-bold">Panopto</span>, <span class="h5p-bold">Vimeo</span> und <span class="h5p-bold">Flowcast</span>.',
   dragAndDropToReplaceVideo: 'Ziehen Sie eine Videodatei hierher, um sie zu ersetzen',
   dragAndDropToReplaceAudio: 'Ziehen Sie eine Audiodatei hierher, um sie zu ersetzen',
   uploadVideo: 'Video hinzufügen',
